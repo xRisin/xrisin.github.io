@@ -1,0 +1,83 @@
+
+
+:root{
+    --navbar_height: 75px;
+}
+.navbar{
+    background-color: white;
+    position: fixed;
+    height: var(--navbar_height);
+    width: 100%;
+    top: 0;
+}
+
+.navbar li{
+
+    padding: 0px 20px;
+    top: 50%;
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    /* text-align: center; */
+}
+
+.banner{
+    width: 100%;
+    background-color: #4d00ff;
+    color: black;
+    text-align: center;
+    margin-top: var(--navbar_height);
+    padding: 100px 0;
+    
+    
+}
+#small-banner-img{
+    height: 250px;
+    width: 250px;
+
+    filter: drop-shadow(1px 1px 1px black);
+}
+#header-text{
+    padding-top: 20px;
+    color: #4D00FF;
+    font-size: 100px;
+    display: inline-block;
+}
+
+.sticky-notes-section{
+    padding: 20px 50px;
+    
+}
+
+/* ------------- General classes ------------------ */
+
+
+#clueless-lists ul{
+    list-style-type: none;
+}
+
+.avatar{
+    background-image: url(../Images/Banner\ Photo.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+.bold{
+    font-weight: 900;
+}
+
+a.blue{
+    color: blue;
+}
+
+.normal-paragraph{
+    font-size: 25px;
+}
